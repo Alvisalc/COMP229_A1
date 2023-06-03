@@ -1,8 +1,69 @@
+  /* styles.css */
+header {
+  background-color: #333;
+  padding: 20px 0;
+}
 
-  
-  .example-button-container {
-    display: flex;
-    justify-content: center;
-    width: 120px;
-  }
-  
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  float: left; //float to left
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end; //float the bar to end
+}
+
+.nav-item {
+  margin-left: 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #aaa;
+}
+
+.main-wrapper{
+  flex: 1;
+}
+
+/* app.component.css */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+p {
+  margin: 0;
+}
+

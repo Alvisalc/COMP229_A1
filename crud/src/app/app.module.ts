@@ -12,6 +12,8 @@ import {MatButtonModule} from '@angular/material/button'; //From Angular Materia
 import { HomeComponent } from './home/home.component'; //import by command "ng g c home"
 import { AboutComponent } from './about/about.component'; //import by command "ng g c about"
 import { ProjectsComponent } from './projects/projects.component'; //import by command "ng g c projects"
+import { ServicesComponent } from './services/services.component';
+import { ContactComponent } from './contact/contact.component';
 
 import appRoutes from './routerConfig';
 
@@ -20,7 +22,9 @@ import appRoutes from './routerConfig';
     AppComponent,
     HomeComponent,
     AboutComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ServicesComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
