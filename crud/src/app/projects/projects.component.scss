@@ -1,6 +1,6 @@
-/* portfolio.component.css */
 .portfolio {
     padding: 40px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   
   .container {
@@ -18,12 +18,13 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0 -15px;
+    justify-content: center;
   }
   
   .col-md-4 {
     flex: 0 0 33.33%;
     max-width: 33.33%;
-    padding: 0 15px;
+    padding: 0 20px;
     margin-bottom: 30px;
   }
   
