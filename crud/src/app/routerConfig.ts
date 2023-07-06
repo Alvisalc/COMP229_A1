@@ -5,6 +5,7 @@ import { AboutComponent } from './about/about.component'; //copy from app.module
 import { ProjectsComponent } from './projects/projects.component'; //copy from app.module.ts
 import { ServicesComponent } from './services/services.component';
 import { ContactComponent } from './contact/contact.component';
+import { LoginComponent } from './login/login.component'; //set up the route for login page - assignment 2
 
 const appRoutes : Routes = [
     {
@@ -26,6 +27,10 @@ const appRoutes : Routes = [
     {
         path:'contact',
         component: ContactComponent
+    },
+    {
+        path:'login',
+        component: LoginComponent
     }
 ]
 
