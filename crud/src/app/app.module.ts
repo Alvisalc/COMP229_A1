@@ -16,7 +16,8 @@ import { ServicesComponent } from './services/services.component';
 import { ContactComponent } from './contact/contact.component';
 
 import appRoutes from './routerConfig';
-import { LoginComponent } from './login/login.component'; //import by command "ng g c login" for assignment 2
+import { LoginComponent } from './login/login.component';
+import { DashboardComponent } from './dashboard/dashboard.component'; //import by command "ng g c login" for assignment 2
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { LoginComponent } from './login/login.component'; //import by command "n
     ProjectsComponent,
     ServicesComponent,
     ContactComponent,
-    LoginComponent
+    LoginComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,

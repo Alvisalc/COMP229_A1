@@ -1,0 +1,33 @@
+<!-- contacts.ejs -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Business Contacts</title>
+  <style>
+    /* Add your CSS styles here */
+  </style>
+</head>
+<body>
+  <h2>Business Contacts</h2>
+  <table>
+    <tr>
+      <th>Contact Name</th>
+      <th>Contact Number</th>
+      <th>Email Address</th>
+      <th>Actions</th>
+    </tr>
+    <% contacts.forEach(contact => { %>
+      <tr>
+        <td><%= contact.name %></td>
+        <td><%= contact.number %></td>
+        <td><%= contact.email %></td>
+        <td>
+          <a href="/contacts/update/<%= contact._id %>">Update</a>
+          <a href="/contacts/delete/<%= contact._id %>">Delete</a>
+        </td>
+      </tr>
+    <% }) %>
+  </table>
+  <a href="/logout">Logout</a>
+</body>
+</html>
